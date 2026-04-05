@@ -19,11 +19,13 @@ Installation
 
 * Copier le code dans un répertoire
 * Avec un terminal se localiser dans le répertoire
+  
   .. code:: console
 
     cd /path/to/app_directory
     
 * Avec un terminal se localiser dans le répertoire
+  
   .. code:: console
 
     python3 -m venv venv
@@ -36,6 +38,7 @@ Usage
 * Copier des factures au format pdf à analyser dans le répertoire (à la racine du répertoire de l'application)
     * Les factures pdf peuvent une source texte ou image scannée. Les deux types de pdf fonctionnent.
 * Lancer le script
+  
   .. code:: console
 
     cd /path/to/app_directory

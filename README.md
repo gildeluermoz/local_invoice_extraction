@@ -18,30 +18,24 @@ Installation
 ------------
 
 * Copier le code dans un répertoire
-* Avec un terminal se localiser dans le répertoire
-  
-  .. code:: console
-
+* Avec un terminal se localiser dans le répertoire :
+```
     cd /path/to/app_directory
-    
-* Avec un terminal se localiser dans le répertoire
-  
-  .. code:: console
-
+```
+* Avec un terminal se localiser dans le répertoire :
+```
     python3 -m venv venv
     source venv/bin/activate
     pip install -r requirements.txt
-
+```
 Usage
 -----
 
 * Copier des factures au format pdf à analyser dans le répertoire (à la racine du répertoire de l'application)
     * Les factures pdf peuvent une source texte ou image scannée. Les deux types de pdf fonctionnent.
-* Lancer le script
-  
-  .. code:: console
-
+* Lancer le script :
+```
     cd /path/to/app_directory
     source venv/bin/activate
     python3 ./parse_facture_jan.py
-
+```
